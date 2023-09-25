@@ -13,6 +13,7 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { TempFormComponent } from './temp-form/temp-form.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { TemDirectiveDirective } from './tem-directive.directive';
+import { MainComponent } from './pages/main/main.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { TemDirectiveDirective } from './tem-directive.directive';
     TempFormComponent,
     ProductListComponent,
     TemDirectiveDirective,
+    MainComponent,
    
   ],
   imports: [

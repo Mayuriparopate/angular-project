@@ -30,6 +30,7 @@ export class LoginService {
   }
 
   setData(datas){
+    debugger
     this.userVal.next(datas);
   }
   // getDataV(){

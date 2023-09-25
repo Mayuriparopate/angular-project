@@ -77,6 +77,7 @@ export class ReactiveFormComponent implements OnInit {
  // this.router.navigate(['/productList'], { queryParams: obj });
   //this.router.navigateByUrl('/productList', { state: obj });
   //this.router.navigateByUrl(`/productList/${obj.userName}/${obj.email}`)
+  debugger
 this.userService.setData(obj);
   this.router.navigate(['/productList'])
   }
